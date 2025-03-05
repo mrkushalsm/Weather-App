@@ -230,7 +230,7 @@ export default function App() {
 
     const fetchBackgroundImage = async (query) => {
         try {
-            const res = await fetch(`https://api.pexels.com/v1/search?query=${query}&per_page=10`, {
+            const res = await fetch(`https://api.pexels.com/v1/search?query=${query}&per_page=1&size=large`, {
                 headers: { Authorization: PEXELS_API_KEY },
             });
             const data = await res.json();
