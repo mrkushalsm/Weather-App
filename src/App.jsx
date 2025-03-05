@@ -207,6 +207,8 @@ import { useState, useEffect } from "react";
 import SearchBar from "./components/SearchBar";
 import WeatherDetails from "./components/WeatherDetails";
 import ForecastCard from "./components/ForecastCard";
+import Lottie from "lottie-react";
+import weatherIcon from "../public/weather-app.json";
 
 export default function App() {
     const [weatherData, setWeatherData] = useState(null);
@@ -284,7 +286,11 @@ export default function App() {
                 transition: "background-image 0.5s ease-in-out",
             }}
         >
-            <h1 className="text-3xl font-bold mb-6">Weather App 🌦️</h1>
+            <div className="flex justify-center items-center">
+                <Lottie animationData={weatherIcon} className="w-24 h-24" />
+                <h1 className="text-3xl font-bold ">Weather App</h1>
+                <Lottie animationData={weatherIcon} className="w-24 h-24" />
+            </div>
 
             <label className="swap swap-rotate absolute top-5 right-5">
                 <input type="checkbox" checked={theme === "dark"} onChange={toggleTheme}/>
