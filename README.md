@@ -48,9 +48,17 @@ A simple, clean UI weather app that provides current weather and a 5-day forecas
 ## 📸 Screenshots
 <details>
 <summary>Dark Mode</summary>
+<img src="https://github.com/mrkushalsm/Weather-App/blob/main/public/screenshots/home-page-dark.png" alt="" />
+<img src="https://github.com/mrkushalsm/Weather-App/blob/main/public/screenshots/search-suggestion-dark.png" alt="" />
+<img src="https://github.com/mrkushalsm/Weather-App/blob/main/public/screenshots/weather-display-dark.png" alt="" />
+<img src="https://github.com/mrkushalsm/Weather-App/blob/main/public/screenshots/weather-5day-forecast-dark.png" alt="" />
 </details>
 <details>
 <summary>Light Mode</summary>
+<img src="https://github.com/mrkushalsm/Weather-App/blob/main/public/screenshots/home-page-light.png" alt="" />
+<img src="https://github.com/mrkushalsm/Weather-App/blob/main/public/screenshots/search-suggestion-light.png" alt="" />
+<img src="https://github.com/mrkushalsm/Weather-App/blob/main/public/screenshots/weather-display-light.png" alt="" />
+<img src="https://github.com/mrkushalsm/Weather-App/blob/main/public/screenshots/weather-5day-forecast-light.png" alt="" />
 </details>
 
 ## 🤝 Contributing
