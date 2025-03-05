@@ -40,6 +40,19 @@ A simple, clean UI weather app that provides current weather and a 5-day forecas
    npm run dev
    ```
 
+## ⏯️ Demo
+[With Vercel](https://weather-app-teal-omega.vercel.app/)
+
+[With Netlify](https://mrkushalsm-weather-app.netlify.app/) (The API calls show unauthorized access due to no `.env` file present even after setting environment variables, will fix this soon!)
+
+## 📸 Screenshots
+<details>
+<summary>Dark Mode</summary>
+</details>
+<details>
+<summary>Light Mode</summary>
+</details>
+
 ## 🤝 Contributing
 Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
